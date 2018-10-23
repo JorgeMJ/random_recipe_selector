@@ -4,15 +4,15 @@
 /*# Contact: 		jmartinjoven@gmail.com 																	 #*/
 /*# Website: 		www.jorgemartinjoven.dx.am 																 #*/
 /*# Date: 			October 10th, 2018																		 #*/
-/*# Description: 	This program allows the user to ramdomly select recipes according to input parameters    #*/
+/*# Description: 	This program allows the user to randomly select recipes according to input parameters    #*/
 /*#				(number and kind of recipes) form a storing object. The user can also add his or her own     #*/
-/*#				recipes that will be considered in the ramdom selection of recipes. Since this is a   		 #*/
+/*#				recipes that will be considered in the random selection of recipes. Since this is a   		 #*/
 /*#				front-end project, the recipes as stored in the 'localStorage' of the browser.		    	 #*/
 /*#				 																						     #*/
 /*############################################################################################################*/
 
 /* ######## SETUP FUNCTION: ################################################################################# 
-   # This function set up the DOM so the program can run adequately.										# 
+   # This function sets up the browser so the program can run adequately.									# 
    # It loads the object 'recipes' to the localStorage as soon as the window loads.							# 		   
    ########################################################################################################## */
 
@@ -22,10 +22,10 @@ window.onload = function() {
 	}
 }
 
-/* ######## OBJECTS: ######################################################################################## 
-   # These two objects ('inputRecipe' and 'displayRecipe') hold, respectively, the required values to 		# 
-   # create a new recipe to be stored in 'recipes' and to display a recipe from 'recipes'.					# 		   
-   ########################################################################################################## */
+/* ######## PROTOTYPES: ######################################################################################## 
+   # These two prototypes ('inputRecipe' and 'displayRecipe') hold, respectively, the required values to 	   # 
+   # the object that will hold new recipe to be stored in 'recipes' and to display a recipe from 'recipes'.	   # 		   
+   ############################################################################################################ */
 
 //INPUT OBJECT: Holds the properties that will be stored in 'recipes'.
 const inputRecipe = {
@@ -46,7 +46,7 @@ const inputRecipe = {
 	preparation: this.preparation
 }
 
-//OUTPUT OBJECT: Display a recipe in the DOM taken from 'recipes'.
+//OUTPUT OBJECT: Display a recipe in the browser taken from 'recipes'.
 const displayRecipe = {
   	init: function(recipe) {
   		this.id = recipe.id,

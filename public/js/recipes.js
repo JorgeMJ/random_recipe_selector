@@ -177,5 +177,14 @@ const recipes = {
 		time: "60",
 		ingredients: "ingredient 1, ingredient 2, ingredient 3, ingredient 4, ingredient 5",
 		preparation: "this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe "
+	},
+
+	21: {
+		id: 21,
+		name: "recipe21",
+		kind: "Bread/Baked",
+		time: "150",
+		ingredients: "ingredient 1, ingredient 2, ingredient 3, ingredient 4, ingredient 5",
+		preparation: "this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe this is an example of the description of the recipe "
 	}
 }
